@@ -1,0 +1,90 @@
+*{
+
+    font-family: 'Bahnschrift SemiLight',sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.backbg{
+    background-image: linear-gradient(0,#c6d1f3,#eef2ff);
+    height: 100vh;
+    color: #26193d;
+
+}
+.calc{
+    text-align: center;
+    position: absolute;
+    border: 2px solid black;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:rgb(151 170 232);
+}
+.calc h1{
+    margin-bottom: 50px;
+    font-family: Comic Sans MS;
+    color: black;
+}
+
+.bot{
+width: 60px;
+height: 50px;
+border-radius: 30px;
+font-size: 21px;
+margin: 2px;
+border: 1px solid #464141;
+background-color: rgb(255, 255, 255);
+
+}
+
+.bot:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  
+
+}
+
+.bot:hover{
+    background-color:black;
+    color: white;
+    transition: all 0 ,5s;
+    
+}
+
+#result{
+
+    background-color: #fafafa;
+    border-radius: 30px;
+    line-height: 50px;
+    height: 50px;
+    font-size: 21px;
+    color: black;
+    margin: 2px;
+    max-width: 350px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+#Byme{
+
+    margin-top: 10px;
+    padding: 10px 10px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color: #c31146;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+#Byme:hover {background-color: #3e8e41}
+#Byme:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }

@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="calcu.js"></script>
+</head>
+
+<body class="backbg">
+    <div class="calc">
+        <h1>Calculator</h1>
+        <p id="result"></p>
+        <table>
+            <tbody>
+                <tr>
+                    <td><button id="cle" class="bot" onclick="clean()">C</button> </td>
+                    <td><button id="bac" class="bot" onclick="back()">&#60</button></td>
+                    <td><button id="div" class="bot" onclick="insert('/')">&divide;</button></td>
+                    <td><button id="mul" class="bot" onclick="insert('*')">&times;</button></td>
+                </tr>
+                <tr>
+                    <td><button id="seven" class="bot" onclick="insert('7')" ,"vibrar()">7</button> </td>
+                    <td><button id="eight" class="bot" onclick="insert('8')">8</button> </td>
+                    <td><button id="nine" class="bot" onclick="insert('9')">9</button></td>
+                    <td><button id="add" class="bot" onclick="insert('+')">+</button></td>
+                </tr>
+                <tr>
+                    <td><button id="four" class="bot" onclick="insert('4')">4</button> </td>
+                    <td><button id="five" class="bot" onclick="insert('5')">5</button> </td>
+                    <td><button id="six" class="bot" onclick="insert('6')">6</button></td>
+                    <td><button id="Sub" class="bot" onclick="insert('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button id="one" class="bot" onclick="insert('1')">1</button> </td>
+                    <td><button id="two" class="bot" onclick="insert('2')">2</button> </td>
+                    <td><button id="three" class="bot" onclick="insert('3')">3</button></td>
+                    <td rowspan="2"><button id="equal" class="bot" style="height: 100px;"
+                            onclick="calcular()">=</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button id="zero" class="bot" style="width: 120px;" onclick="insert('0')">0</button>
+                    </td>
+                    <td><button id="dot" class="bot" onclick="insert('.')">.</button> </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <Button id="Byme" onclick="author()"> Designed By </Button>
+    </div>
+
+
+
+</body>
+
+</html>
